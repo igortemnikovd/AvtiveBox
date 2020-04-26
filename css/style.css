@@ -157,6 +157,7 @@ p {
 
 .features {
 	display: flex;
+	flex-wrap: wrap; /* это команда разрешает переность наши элементы на новую строку */
 	margin: 100px 0; /* эта конструкция задает отступы сверзу и снизу */
 
 }
@@ -164,6 +165,7 @@ p {
 .features__item {
 	width: 33.33333%;
 	padding: 0 40px;
+	margin: 25px 0;
 
 	text-align: center;
 }
