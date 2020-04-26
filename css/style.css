@@ -151,3 +151,40 @@ p {
 .btn:hover {
 	background-color: #dd3434;
 }
+
+/* Features 
+----------*/
+
+.features {
+	display: flex;
+	margin: 100px 0; /* эта конструкция задает отступы сверзу и снизу */
+
+}
+
+.features__item {
+	width: 33.33333%;
+	padding: 0 40px;
+
+	text-align: center;
+}
+
+.features__icon {
+	margin-bottom: 20px;
+
+}
+
+.features__title {
+	margin-bottom: 15px;
+
+	font-size: 14px;
+	color: #2d3033;
+	font-weight: 700;
+	text-transform: uppercase; /* что бы сделать все буквы большими */
+}
+
+.feauters__text {
+	font-size: 14px;
+	line-height: 1.5;
+	color: #6c7279;
+
+}
